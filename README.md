@@ -1,4 +1,4 @@
-# ♟️ Agentic-ChessMaster
+# ♟️ Chess Analyzer Agent
 
 Agentic-ChessMaster is an AI-powered interactive chess platform designed to enhance the gameplay experience for both human-vs-human and human-vs-AI scenarios. Built on a hybrid architecture with intelligent agents and cloud infrastructure, this project integrates reasoning engines, move tracking, and voice interactions to help players learn, analyze, and enjoy chess like never before.
 
@@ -34,8 +34,6 @@ In traditional online chess platforms, players often struggle to understand the 
 
 ## System Architecture
 
-![System Architecture](https://github.com/KikiSpace/agenticChessTutor/blob/main/chessmaster/assets/arch.png?raw=true)
-
 ### Frontend
 - Built using `React` with custom chess UI (e.g., `react-chessboard`)
 - Pages:
@@ -59,22 +57,22 @@ In traditional online chess platforms, players often struggle to understand the 
 
 1. 🏁 **Start Page**
     - Users select between *Human vs Human* or *Human vs CPU* modes.
-    ![gameselect](https://media.githubusercontent.com/media/KikiSpace/agenticChessTutor/main/chessmaster/assets/gameselect.GIF)
+    ![gameselect](https://media.githubusercontent.com/media/jluotosun/chessanalyzeragent/main/chessmaster/assets/gameselect.GIF)
 2. ♟️ **Play Page**
     - Depending on the selected mode, the game UI is rendered.
-    ![pawnplay](https://media.githubusercontent.com/media/KikiSpace/agenticChessTutor/main/chessmaster/assets/pawnselect.GIF)
+    ![pawnplay](https://media.githubusercontent.com/media/jluotosun/chessanalyzeragent/main/chessmaster/assets/pawnselect.GIF)
 
 3. 🧠 **AI Strategy Analysis Agent**
     - Fetches current game FEN and sends it to Claude-3.5.
     - Returns the game situation explanation, reasoning, and next move suggestions.
-    ![gameplay](https://media.githubusercontent.com/media/KikiSpace/agenticChessTutor/main/chessmaster/assets/gameplay.GIF)
+    ![gameplay](https://media.githubusercontent.com/media/jluotosun/chessanalyzeragent/main/chessmaster/assets/gameplay.GIF)
 
 4. 🗣️ **AI Voice Companion Agent**
     - You can have a lively conversation about the current board situation with your AI Voice Agent.
 
 5. 💾 **Move Logs**
     - Game moves are recorded and cached via Google Cloud’s Local Cache Store.
-    ![movelog](https://media.githubusercontent.com/media/KikiSpace/agenticChessTutor/main/chessmaster/assets/movelog.GIF)
+    ![movelog](https://media.githubusercontent.com/media/jluotosun/chessanalyzeragent/main/chessmaster/assets/movelog.GIF)
 
 ---
 
