@@ -1,18 +1,6 @@
-# ♟️ Chess Analyzer Agent
+# ♟️ Agentic-Checkmate
 
-Agentic-ChessMaster is an AI-powered interactive chess platform designed to enhance the gameplay experience for both human-vs-human and human-vs-AI scenarios. Built on a hybrid architecture with intelligent agents and cloud infrastructure, this project integrates reasoning engines, move tracking, and voice interactions to help players learn, analyze, and enjoy chess like never before.
-
----
-
-## 🚀 Project Inspiration
-
-In traditional online chess platforms, players often struggle to understand the reasoning behind recommended moves or to review their strategies meaningfully. Agentic-ChessMaster is inspired by the desire to provide a more agentic and explainable chess experience using advanced AI systems. The platform combines:
-- Real-time strategy analysis
-- Explainable move reasoning
-- Voice-assisted interaction as a fun companion
-- Seamless UI features for learning and feedback
-
----
+Agentic-Checkmate is an AI-powered interactive chess platform designed to enhance the gameplay experience for both human-vs-human and human-vs-AI scenarios. Built on a hybrid architecture with intelligent agents and cloud infrastructure, this project integrates reasoning engines, move tracking, and voice interactions to help players learn, analyze, and enjoy chess like never before.
 
 ## Key Features
 
@@ -83,14 +71,3 @@ In traditional online chess platforms, players often struggle to understand the 
 - **Storage**: Google Cloud Local Cache
 - **Chess Engine**: Stockfish
 
----
-
-## Contributor
-
-Coming soon! Stay tuned for contribution guidelines and open-source collaboration.
-
----
-
-## 📜 License
-
-MIT License. See `LICENSE` for details.
